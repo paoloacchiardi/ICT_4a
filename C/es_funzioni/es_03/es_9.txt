@@ -1,0 +1,6 @@
+es.9
+2) parametri formali = X,Y
+   par.attuali= A,C
+   var.globali= A,C
+   var.locali= B,X,Y
+   output= "A=3 B= 8.50 C= 1.50"

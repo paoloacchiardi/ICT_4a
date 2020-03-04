@@ -1,0 +1,97 @@
+ESERCIZI FUNZIONI E PROCEDURE
+
+es.1
+1) var.globali = A B C      2) var.globali = A B		3) var.globali = A
+var. locali = X;	       var.locali = X			   var.locale = X,B
+output = "X= 1.50"	       output = "X= 18 A= 6 B= 6"          output = "X=5 A=4 B=9"  
+
+es.2
+1) "int C" va scritto nella prima riga del programma: "int A,B,C;"
+2) stesso errore del programma prima, la prima riga dev'essere: "float A,B,C;" e togliere la prima riga dell'int main
+
+es.3
+1) var. globali = A,B		2) var. globali= A,B
+output = "A= 7 B= 5"		   output = "A= 5 B= 12"
+
+es.4
+Sì.
+
+es.5
+Sì a condizione che la funzione B sia dichiarata prima della funzione A.
+
+es.6
+1) par. formali=X,Y	var.locali= //		2)par.formali= X,Y	var.locali=Z
+par.attuali=A,B,C,D	var.globali=A,B,C,D	par.attuali= B,C	var.globali=A,B,C,D
+3)par.formali=X,Y	var.locali=C,Z,A,B
+par.attuali=B,D		var.globali=C,D,E
+
+es.8
+1) "X= 6 X= 8 A= 5 B= 7"		2) "X= 9 X= -21 A= 0 B= -5"
+
+es.9
+
+1) par. formali=X,Y	var.locali=//					3)par.formali=X,Y	var.locali=B
+par.attuali=A,C 	var.globali=A,B,C				par.attuali=A,C 	var.globali=A,B,C
+			output="A= 3 B=? C= 1.50"			output="B= 6 Y= 7.50" "A= 3 B= 0.20 C= 1.50"
+
+
+5)par.formali=X,Y	var.locali=X,Y,B											
+par.attuali=A,B		var.globali=A												
+			output="A= -1.50 Y= 7.50" "A= -1.50 B= 5.50" "A= -6.00 Y= -1.00" "A= -6.00 B= 5.50"			
+
+2)par.formali=X,Y	var.locali=Z					4)par.formali=X,Y	var.locali=Z
+par.attuali=A,B		var.globali=A,B					par.attuali=A,B		var.globali=A,B
+			output="A= 2 B= 5 A= 2 B= 5"			output="X= 7 Y= 19 Z=14" "A= 2 B= 5" "X= 6 Y= 18 Z=12" "A=2 B= 5"
+
+6)par.formali=X,Y,Z	var.locali=X,Y,Z,A,B,C				7)par.formali=A,B	var.locali=A,B,A,B													
+par.attuali=A,B,C	var.globali=T					par.attuali=A,B		var.globali=//							
+			output="T= -8.90" "T= -0.70"						output="A= 4 B= -2" "A= 3 B= 2" "A= 16 B= -7" "A= 3 B= 2"														
+			
+8)par.formali=X,Y	var.locali=A,B,A,X,Y
+par.attuali=A,B		var.globali=//
+			output="X= 4 Y=10 A= 8" "A= 2 B= 5" "X= 7 Y= 19 A= 14" "A= 2 B= 5"
+
+es.10			es.11		es.12 					es.13
+Tra 5 e 6. 		2.0 80.4	parametro formale per valore		No, perchè il passaggio non può avvenire tra variabili di tipo diverso
+
+es.14		es.15		es.16
+32.2		4.4		par.attuali = A,B	var.locali=A,B,C
+				par.formali = X,Y	var.globali=//
+				output="il risultato è 4.00"
+
+es.17								es.18
+par.attuali =A,B	var.locali=A,B,C			par.attuali=A,B		var.locale=A,B,C
+par.formali = X,Y	var.globali=//				par.formali=X,Y		var.globale=//
+output="inserisci due numeri interi" "il risultato è 3"		output="inserisci due numeri interi" "il risultato è 9"
+
+es.19								es.20
+output="inserisci due numeri interi" "il risultato è 16"	var.globali=A
+								output="inserisci un numero intero" "il risultato è -2"
+
+es.22								es.23
+par.attuali per indirizzo= &A	var.locali=A,B			par.attuali per indirizzo=&A,&B 	var.locali=A,B,z			
+par.attuali per valore=B	var.globali= //			par.attuali per valore=	//		var.globali= // 
+par.formali per indirizzo=*X					par.formali per indirizzo=*x,*y
+par.formali per valore=Y					par.formali per valore= //
+output="A= -9 B= 5"						output="A= 7 B= 12"					
+
+es.24
+par.attuali per indirizzo=&A	var.locali= A,B,z	
+par.attuali per valore=B	var.globali= //	
+par.formali per indirizzo=*x
+par.formali per valore=y
+output="A= 3.00 B= 3.50"
+
+es.31						es.34
+int potenza(int b,int e){			a. output= 2 num = -2
+	if e==1{ return b; }			b. output= 5 num = 120
+	else{ return b=potenza(b,e-1); }	c. output= 7 num = -5040
+}
+
+
+
+
+
+
+
+
