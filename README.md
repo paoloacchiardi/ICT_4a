@@ -1,2 +1,3 @@
-# Informatica_C_Java
-compiti di informatica a.s. 2019/2020
+# Informatica
+Compiti di informatica a.s. 2019/2020
+Esercizi in JavaScript, Java , C.
