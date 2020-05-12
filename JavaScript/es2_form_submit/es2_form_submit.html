@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<hmtl>
+<title>SUBMIT FORM</title>
+<body>
+    <form name = "info" id = "info">
+        NAME: <input type = "text" id = "name"/> <br></br>   
+        SURNAME: <input type = "text" id = "surname"/> <br></br>
+        M <input type = "radio" id = "genderM" onclick="nascondiSposata()" checked/>
+        F <input type = "radio" id = "genderF" onclick="mostraSposata()"/> <br></br>
+        <p id = "pSposata" hidden> Sposata </p> <input type = "checkbox" id = "sposata" hidden/> <br></br>
+        <input type = "button" id = "submit" value = "submit" onclick="controlloInput()"/>
+    </form>
+    <script [language="JavaScript"] src="es2_form_submit.js"></script>
+</body>
+</html>
